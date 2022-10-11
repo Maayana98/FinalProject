@@ -1,15 +1,19 @@
 {
   "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "nodemon": "^2.0.20"
+    "mongoose": "^6.6.5",
+    "nodemon": "^2.0.20",
+    "websocket": "^1.0.34",
+    "ws": "^8.9.0"
   },
   "name": "finalproject",
   "description": "",
   "version": "1.0.0",
-  "main": "server.js",
-  "devDependencies": {},
+  "main": "app.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "start": "nodemon ./src/app.js"
   },
   "repository": {
     "type": "git",
